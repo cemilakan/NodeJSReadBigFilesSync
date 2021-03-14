@@ -4,7 +4,8 @@ var stream = require('stream');
 var outstream = new stream();
 var lineCount = 0;
 var number = "";
-var input = fs.createReadStream('../../../filenode/readbig/file.xml');
+//File path
+var input = fs.createReadStream('file.csv');
 var rl = readline.createInterface(input, outstream);
 
 function readLines({ input }) {
