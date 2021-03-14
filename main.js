@@ -23,6 +23,7 @@ function readLines({ input }) {
   console.time("Finished in: ");
   for await (var line of readLines({ input })) {
     lineCount++;
+    //Her bir satır ile burada işlem yapılabilir
     console.log(line);
   }
   console.timeEnd("Finished in: ");
