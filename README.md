@@ -9,3 +9,6 @@ As known Node can hold up to 1.5GB in memory at one time but not more
   `const stream = require('stream');`
 - File system  
   `const fs = require('fs');`
+  
+## Result
+![alt text](https://github.com/cemilakan/NodeJSReadBigFilesSync/blob/main/result.PNG)
